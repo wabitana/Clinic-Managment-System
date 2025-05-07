@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Adminpanel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="full-continer">
+        <div id="imagepanel">
+            <i class="fa-solid fa-user" id="icon"></i>
+        </div>
+        <div id="text-contante">
+            <p id="admin-text">
+                Admin_<mark style="color: rgb(197, 38, 10);">Panel</mark>
+               
+            </p>
+        </div>
+        <div id="form">
+            <p id="message"></p>
+            <form id="registerForm">   
+            <label for="name" id="labelforname">Enter Your Name?</label><br/>
+            <input type="text" name="username" id="name" value="username" required><br/>
+            <div style="margin-top:20px;">
+            <label for="password" id="labelforpasw">Enter Your Key?</label><br/>
+            <input type="password" name="password" id="password" required><br/>
+            <button id="btn-sub" type="submit">LogIn</button>
+        </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
